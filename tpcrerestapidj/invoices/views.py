@@ -3,7 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from invoice.models import Invoice
+from invoices.models import Invoice
 from invoices.serializers import InvoiceSerializer
 
 @api_view(['GET'])
